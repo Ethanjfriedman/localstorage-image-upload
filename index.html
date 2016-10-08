@@ -11,15 +11,20 @@
     </header>
     <form>
       <fieldset>
-        <label for='pic'>Upload a pic to Own Your Spot!</label>
+        <label for='pic'>Store a pic for future upload to Own Your Spot!</label>
         <input type="file" id="img-submit" name="pic" accept="image/*" capture='camera'>
         <input type="text" id="moment-name" placeholder="(Title Your Moment)">
         <input type="textarea" id="moment-description" name='description' placeholder="(Describe Your Moment)"></input>
-        <button type='submit' id='submit-btn' value="Let's Own My Spot!">Let's Own My Spot!</button>
+        <button type='submit' id='submit-btn'>Save</button>
+        <button type='submit' id='review'>Recall</button>
+
       </fieldset>
     </form>
-    <h5></h5>
-    <img src="" alt="" />
+    <div id='review-div'>
+      <h3></h3>
+      <p></p>
+      <img src="" alt="" />
+    </div>
     <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
