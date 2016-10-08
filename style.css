@@ -3,9 +3,9 @@
   margin: 0.5em;
 }
 img {
-  width: 500px;
-  height: 500px;
   display: none;
+  height: 500px;
+  width: auto;
 }
 
 header {
